@@ -1,0 +1,260 @@
+<!doctype html><html><!-- InstanceBegin template="/Templates/administrador.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Ofertas</title>
+<!-- InstanceEndEditable -->
+<link href="../estilos/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../imagenes/favicon.ico" >
+   <link rel="icon" type="image/gif" href="../imagenes/animated_favicon1.gif" >
+<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.1/normalize.css">
+<link rel="stylesheet" href="http://i.icomoon.io/public/temp/fe3b6e9331/UntitledProject1/style.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="../js/additional-methods.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body style="background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iZ3JheSI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiPjwvcmVjdD4KPC9zdmc+); background-size: 20px 20px;">
+
+<div id= "principal" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0id2hpdGUiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIGZpbHRlcj0idXJsKCNuKSIgb3BhY2l0eT0iMC40Ij48L3JlY3Q+Cjwvc3ZnPg==);background-size: 20px 20px;" >
+<div id= "emcabezado"> <img src="../imagenes/banner.jpg" width="100%" height="100%"/>
+</div>
+    <ul class="nav">
+    <li><a href="administrador.html">Inicio</a> </li>
+    <li><a href="quienes somos.html">¿Quiénes somos?</a> </li>
+    <li><a href="buscar inmueble.html">Buscar inmueble</a> </li>
+    <li><a href="buscar inmueble.html">visitas</a> </li>
+    <li><a href="#" class="MenuBarItemSubmenu">Contratos</a>
+        <ul>
+        <li><a href="solicitudes de contrato.html">Solicitudes</a></li>
+        <li><a href="historial de contratos.html">Historial</a></li>
+        </ul> </li>
+    <li><a href="usuarios_tabla.html">Usuarios</a><li>
+    
+    <li><a href="../index.html">Cerrar sesión</a></li
+    ></ul>
+    
+<!-- InstanceBeginEditable name="contenido" -->	
+<div id="columna1">
+<form id="ofertas"name="ofertas" method="post">
+<h3>PUBLICAR OFERTA</h3>
+<p>
+<label for="doc">Tipo de Anuncio:</label> 
+<select class="select" id="doc" tabindex="1">
+      <option>Venta</option>
+      <option>Arriendo</option>
+    </select>
+<label for="doc1">Tipo de Vivienda:</label> 
+<select class="select" id="doc1" tabindex="2">
+         <option>Apartamento</option>
+          <option>Casa</option>
+          <option>Chalet</option>
+          <option>Duplex</option>
+    </select>
+<div class="jonas">  
+  <label for="Descripción">Descripción del anuncio:</label>
+<textarea name="Descripción" id="Descripción" rows="8" cols="50" placeholder=" Realice una descripción de las condiciones de negociación" tabindex="3" required ></textarea> </div> </p>
+ <p>
+<div class="jonas">   
+  <label for="EMail">E-Mail:</label>
+  <input type="text" id="EMail" name="EMail" class="select" placeholder="Correo electronico"tabindex="4" required> </div> </p>
+     <p>
+<div class="jonas">   
+  <label for="Teléfono">Teléfono:</label>
+  <input type="text" id="Teléfono" name="Teléfono" class="select" placeholder="Numero telefonico"tabindex="5" required></div> </p>
+      <p>
+<div class="jonas">   
+  <label for="Adjunte las fotos">Adjunte las fotos:</label>
+  <input type="file"  id="Adjunte las fotos" class="select" tabindex="6" required> </div> </p>
+<div class="jonas">   
+  <label for="Habitaciones">Habitaciones:</label>
+  <select name="select"id="Habitaciones" class="select" tabindex="7" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          </select>
+</div> </p>
+     <p>
+<div class="jonas">   
+  <label for="Baños">Baños:</label>
+  <select name="select"id="Baños" class="select" tabindex="8" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          </select>
+</div> </p>
+<div class="jonas">   
+  <label for="Precio">Precio:</label>
+  <input type="text" id="Precio" name="Precio" class="select" placeholder="Valor del inmueble"tabindex="9" required></div> </p>
+      <p>
+<div class="jonas">   
+  <label for="terreno">A.terreno(m2):</label>
+  <input type="text" id="terreno" name="terreno" class="select" placeholder="Area del terreno"tabindex="10" required></div> </p>
+      <p>
+<div class="jonas">   
+<label for="construcción">A.construcción(m2):</label>
+  <input type="text" id="construcción" name="construcción" class="select" placeholder="Area de la construción"tabindex="11" required></div> </p>
+      <p>
+<div class="jonas">   
+  <label for="Estrato">Estrato:</label>
+  <select name="select"id="Estrato" class="select" tabindex="12" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          </select>
+</div> </p>
+<div class="jonas">   
+  <label for="Año de Construccion">Año de Construccion:</label>
+  <select name="select"id="Año de Construccion" class="select" tabindex="13" required>
+          <option>1991</option>
+          <option>1992</option>
+          <option>1993</option>
+          <option>1994</option>
+          <option>1995</option>
+          </select>
+</div> </p>
+<p>
+<div class="jonas">   
+  <label for="Ubicacion">Ubicacion:</label>
+  <select name="select"id="Ubicacion" class="select" tabindex="14" required>
+          <option>Norte</option>
+            <option>Sur</option>
+            <option>Occidente</option>
+            <option>Oeste</option>
+          </select>
+</div> </p>
+ <p>      
+<div class="jonas">  
+  <label for="Dirección">Dirección:</label>
+<input type="text" id="Dirección" name="Dirección" class="select" placeholder="Direccion del inmueble"tabindex="15" required> </div> </p>
+      <p>
+<div class="jonas">   
+  <label for="Estado de conservación">Estado de conservación:</label>
+  <select name="select"id="Estado de conservación" class="select" tabindex="16" required>
+          <option>Bueno</option>
+          <option>Regular</option>
+          <option>Mala</option>
+          </select>
+</div> </p>
+ <p>
+<div class="jonas">   
+  <label for="Parqueaderos" class="labeloferta">Parqueaderos?:</label> </span> si
+          <input type="radio" name="radio1" id="Parqueaderos1" value="radio" tabindex="17" required> 
+          no
+          <input type="radio" name="radio2" id="Parqueaderos2" value="radio2" tabindex="18" required> </div> </p> 
+<p>
+<a href="administrador.html" target="_self"><input type="button" name="button2" class="btn" id="button" value="Terminar Inscripción" tabindex="19" required></a>
+</p>
+ </form>
+ 	<script>
+	// Función ready que ejecuta su contenido al cargar
+	$().ready(function() {
+		// Validación del formulario, tener en cuenta el ID
+		$("#ofertas").validate({ // Aplicación de la funcion validate. A continuación se especifican las reglas y los mensajes
+			// Aplicación de REGLAS de validación
+			rules: {
+				Descripción: {
+					required: true,
+					minlength: 20,
+					maxlength:200		
+				},
+					EMail: {
+					required: true,
+					email: true
+					
+				},
+					Teléfono: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 8
+				},
+					Precio: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 5
+				},
+					terreno: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 2
+				},
+					construcción: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 2
+				},
+				Dirección: {
+					required: true,
+					minlength: 20
+				}
+
+			}, // Cierre de las reglas, se separa con coma de los mensajes
+
+			// Mensajes a generar para indicar al usuario la estructura valida que debe ingresar. Se debe indicar por cada regla adicionada anteriormente para sobre escribir los mensajes por defecto (los cuales están en inglés. Se encuentran en "jquery.validate.js" línea 308)
+			messages: {
+				Descripción:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres",
+					maxlength:"Máximo {0} caracteres"
+				},
+				EMail:  {
+						required: "Campo requerido",
+					email: "digite correctamente su correo"
+				},
+				Teléfono: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Precio: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				terreno: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				construcción: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Dirección:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				}
+
+			} // Cierre de los mensajesx|
+		}); // Cierre de la función validate
+	}); // Cierre de la función ready
+	
+	// NOTA: Revise el archivo "additional-methods" (ya enlazado arriba), para obtener otros métodos de validación como "lettersonly" básico para el trabajo de su sistema de información
+
+	</script>
+</div>
+<!-- InstanceEndEditable -->
+<div class="pie_de_pagina">
+<pre>Contactenos 
+Cl 65 BIS No 86-50 Oficina 9-501
+SIINMOB (sistema de información inmobiliario)</pre> </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+
+<style type="text/css">
+body{
+font-family:antic;
+font-size:18px;
+	 }
+</style>

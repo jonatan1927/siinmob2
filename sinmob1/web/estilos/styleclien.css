@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+<style type="text/css">
+body{
+	margin-left:opx;
+		margin-right:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+	background-color:#999;
+			font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+		font-size:24px;
+		font-weight:normal;
+	 }
+#cajaprinc{
+	height: auto;
+	width: 1000px;
+	background-color: #CCC;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-right: auto;
+	overflow: auto;
+	text-align: center;
+}
+#logo{
+	width:1000px;
+	height:150px;
+	margin-top:30px;
+	margin-right:auto;
+
+}
+ul, ol {
+	list-style:none;}
+	.nav li a{
+		background-color:#030;
+		color:#FFF;
+		text-decoration:none;
+		padding:3px 19px;
+		display:block;
+		
+		
+		}
+		
+		.nav li a:hover {
+			background-color:#3C6;
+		}
+		.nav > li{
+			float:left;
+		}
+		.nav li ul {
+			display:none;
+			position:absolute;
+			min-width:100px;
+		}
+	.nav li:hover > ul {
+		display:block;
+	}
+	
+	     #columna {
+			 float:left;
+		 height:auto;
+		 width:300px;
+		 margin-top:20px;
+		 margin-bottom:auto;
+		  margin-right:50px;
+		 margin-left:80px;
+		 overflow:auto;
+		 border-radius:10px;
+		 }
+		      #col {
+		  float:left;
+		 height:auto;
+		 width:auto;
+		 margin-top:50px;
+		 margin-bottom:auto;
+		 margin-right:5px;
+		 margin-left:auto;
+		 overflow:auto;
+		 }
+              #slides{
+			 float:none;
+			 height:200px;
+			 width:300px;
+		 margin-left:auto;
+		 margin-bottom:auto;
+		 margin-right:auto;
+			 overflow:hidden;
+			 border-radius:10px;}
+			 
+			       #plones{
+			 float:none;
+			 height:200px;
+			 width:300px;
+			 margin-top:50px;
+		 margin-left:auto;
+		 margin-bottom:auto;
+		 margin-right:auto;
+			 overflow:hidden;
+			 border-radius:10px;}
+			 
+			 .pie_de_pagina{
+          margin-top:20px;
+		 margin-bottom:auto;
+		 margin-right:auto;
+		 margin-left:auto;
+	width: 1000px;
+	height: 50px;
+	background-color:#FF3;
+	text-align: center;
+	}       
+ #mecha {
+		 height:auto;
+		 width:1000px;
+		 margin-bottom:auto;
+		 margin-right:auto;
+		 margin-left:auto;
+		 overflow:auto;
+		 }					 
+</style>
+

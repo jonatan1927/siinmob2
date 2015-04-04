@@ -1,0 +1,145 @@
+<!doctype html><html><!-- InstanceBegin template="/Templates/administrador.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Administrador</title>
+<!-- InstanceEndEditable -->
+<link href="../estilos/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../imagenes/favicon.ico" >
+   <link rel="icon" type="image/gif" href="../imagenes/animated_favicon1.gif" >
+<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.1/normalize.css">
+<link rel="stylesheet" href="http://i.icomoon.io/public/temp/fe3b6e9331/UntitledProject1/style.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="../js/additional-methods.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+
+
+<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine1//style.css" media="screen" />
+	<script type="text/javascript" src="engine1//jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head>
+<body style="background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iZ3JheSI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiPjwvcmVjdD4KPC9zdmc+); background-size: 20px 20px;">
+
+<div id= "principal" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0id2hpdGUiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIGZpbHRlcj0idXJsKCNuKSIgb3BhY2l0eT0iMC40Ij48L3JlY3Q+Cjwvc3ZnPg==);background-size: 20px 20px;" >
+
+
+<!-- Start WOWSlider.com BODY section id=wowslider-container1 -->
+	<div id="wowslider-container1">
+	<div class="ws_images"><ul>
+<li><img src="data1/images/thumbnail_4.jpg" alt="Sala" title="Sala" id="wows1_0"/></li>
+<li><img src="data1/images/thumbnail_5.jpg" alt="Baño" title="Baño" id="wows1_1"/></li>
+<li><img src="data1/images/thumbnail_6.jpg" alt="Cuarto" title="Cuarto" id="wows1_2"/></li>
+</ul></div>
+<div class="ws_thumbs">
+<div>
+<a href="#" title="Sala"><img src="data1/tooltips/thumbnail_4.jpg" alt="" /></a>
+<a href="#" title="Baño"><img src="data1/tooltips/thumbnail_5.jpg" alt="" /></a>
+<a href="#" title="Cuarto"><img src="data1/tooltips/thumbnail_6.jpg" alt="" /></a>
+</div>
+</div>
+<span class="wsl"><a href="http://wowslider.com">slider jquery</a> by WOWSlider.com v6.1</span>
+	<a href="#" class="ws_frame"></a>
+	<div class="ws_shadow"></div>
+	</div>
+	<script type="text/javascript" src="engine1//wowslider.js"></script>
+	<script type="text/javascript" src="engine1//script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div id= "emcabezado"> <img src="../imagenes/banner.jpg" width="100%" height="100%"/>
+</div>
+    <ul class="nav">
+    <li><a href="administrador.html">Inicio</a> </li>
+    <li><a href="quienes somos.html">¿Quiénes somos?</a> </li>
+    <li><a href="buscar inmueble.html">Buscar inmueble</a> </li>
+    <li><a href="buscar inmueble.html">visitas</a> </li>
+    <li><a href="#" class="MenuBarItemSubmenu">Contratos</a>
+        <ul>
+        <li><a href="solicitudes de contrato.html">Solicitudes</a></li>
+        <li><a href="historial de contratos.html">Historial</a></li>
+        </ul> </li>
+    <li><a href="usuarios_tabla.html">Usuarios</a><li>
+    
+    <li><a href="../Index.html">Cerrar sesión</a></li
+    ></ul>
+    
+<!-- InstanceBeginEditable name="contenido" -->
+
+  <table width="841" height="175" border="0" cellspacing="1" id="oferta" align="center">
+    <tr>
+    <th colspan="4"> <div align="center">OFERTA DE INMUEBLE</div></th>
+    </tr>
+    <tr>
+      <td width="424"><div align="left">
+        <table width="77%" height="169" border="1" align="center" cellspacing="1">
+          <tr>
+            <td width="200"> Area Const (mts2):</td>
+            <td width="100">300</td>
+            </tr>
+          <tr>
+            <td>Precio mcuadrado:</td>
+            <td>$900.000</td>
+            </tr>
+          <tr>
+            <td>Estrato:</td>
+            <td>3</td>
+            </tr>
+          <tr>
+            <td>Habitaciones:;</td>
+            <td>3</td>
+            </tr>
+          <tr>
+            <td height="43">Baños:</td>
+            <td>1</td>
+            </tr>
+        </table>
+      </div></td>
+      <td width="369"><div align="center"></div>
+        <div align="center"></div>
+        <div align="justify">
+          <table width="366" height="150" border="1" cellspacing="1" >
+            <tr>
+              <td width="184">Antigüedad:</td>
+              <td width="169">10 Años</td>
+              </tr>
+            <tr>
+              <td>No Pisos:</td>
+              <td>2</td>
+              </tr>
+            <tr>
+              <td>Tipo de Inmueble:</td>
+              <td>Casa</td>
+              </tr>
+            <tr>
+              <td>Tipo de Oferta:</td>
+              <td>Arriendo</td>
+              </tr>
+            <tr>
+              <td>Precio($):</td>
+              <td>$500.000</td>
+              </tr>
+          </table>
+        </div></td>
+      </tr>
+  </table>		
+
+
+<div class="pie_de_pagina">
+<pre>Contactenos 
+Cl 65 BIS No 86-50 Oficina 9-501
+SIINMOB (sistema de información inmobiliario)</pre> </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+
+<style type="text/css">
+body{
+font-family:antic;
+font-size:18px;
+	 }
+</style>

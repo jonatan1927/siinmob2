@@ -1,0 +1,290 @@
+<!doctype html><html><!-- InstanceBegin template="/Templates/propietario.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<script src="../js/additional-methods.js"> </script>
+<script src="../js/jquery.validate.js"> </script>
+<script src="../js/jquery.js"> </script> 
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Publicar inmueble</title>
+
+<script src="../js/additional-methods.js"> </script>
+<script src="../js/jquery.js"> </script>
+<script src="../js/jquery.validate.js"> </script>
+<!-- InstanceEndEditable -->
+
+<link href="../estilos/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../imagenes/favicon.ico" >
+   <link rel="icon" type="image/gif" href="../imagenes/animated_favicon1.gif" >
+
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+
+
+</head>
+
+<body style="background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iZ3JheSI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiPjwvcmVjdD4KPC9zdmc+); background-size: 20px 20px;">
+
+<div id= "principal" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0id2hpdGUiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIGZpbHRlcj0idXJsKCNuKSIgb3BhY2l0eT0iMC40Ij48L3JlY3Q+Cjwvc3ZnPg==);background-size: 20px 20px;" >
+<div id= "emcabezado"> <img src="../imagenes/banner.jpg" width="100%" height="100%"/>
+</div>
+<ul class="nav">
+<li><a href="propietario.html">Inicio</a> </li>
+<li><a href="quienes%20somos.html">¿Quiénes somos?</a> </li>
+<li><a href="#" class="MenuBarItemSubmenu">Inmuebles</a>
+    <ul>
+    <li><a href="publicar%20inmueble.html">Publicar</a></li>
+    <li><a href="visitas.html">Visitas</a></li>
+    <li><a href="buscar.html">Buscar</a></li>
+    </ul>
+     </li>
+<li><a href="../index.html">Cerrar sesión</a></li>
+</ul>
+<!-- InstanceBeginEditable name="contenido" -->
+<div id="columna1">
+<form id="formu"  method="get" action="">
+<p>
+<p style="text-align: center">PUBLICAR INMUEBLE</p>
+</p>
+<fieldset>
+<legend align="center">CARACTERISTICAS DEL INMUEBLE</legend>
+<div class="jonas">
+  <label for="Tipo de Anuncio"> Tipo de Anuncio:</label>
+  <select name="Tipo de anuncio" id="Tipo de Anuncio" class="textfield1" tabindex="1" required>
+          <option>Venta</option>
+          <option>Arriendo</option>
+          </select></div> </p>
+<p>
+<div class="jonas">  
+  <label for="Tipo de Vivienda"> Tipo de Vivienda:</label>
+  <select name="Tipo de vivienda" id="Tipo de Vivienda" class="textfield1" tabindex="2" required>
+         <option>Apartamento</option>
+          <option>Casa</option>
+          <option>Chalet</option>
+          <option>Duplex</option>
+           </select></div> </p>
+  <p>
+<div class="jonas"> 
+  <label for="Anuncio" >Anuncio:</label>
+  <input name="Anuncio" type="text" id="Anuncio" class="textfield" placeholder=" Describa su anuncio" tabindex="3" required ></div> </p>
+  <p>
+<div class="jonas">  
+  <label for="Descripción">Descripción:</label>
+<textarea name="Descripción" id="Descripción" rows="8" cols="50" placeholder=" Realice una descripción de las condiciones de negociación" tabindex="4" required ></textarea> </div> </p>
+ <p>
+<div class="jonas">  
+  <label for="E-mail">E-mail:</label>
+  <input type="email" id="E-mail"  class="textfield" placeholder=" Correo electronico" tabindex="4" required></div> </p>
+     <p>
+<div class="jonas"> 
+  <label for="Telefono">Teléfono:</label>  
+  <input type="text" id="Telefono" class="textfield" placeholder=" Numero telefonico" tabindex="5" required> </div> </p>
+     <p>
+<div class="jonas">   
+  <label for="Adjunte las fotos">Adjunte las fotos:</label>
+  <input type="file" id="Adjunte las fotos" class="textfield" tabindex="6" required> </div> </p>
+</fieldset>
+<p>
+</p>
+<p>
+</p>
+<fieldset>
+<legend align="center">MAS DETALLES</legend>
+     <p>
+<div class="jonas">   
+  <label for="Habitaciones">Habitaciones:</label>
+  <select name="select"id="Habitaciones" class="textfield1" tabindex="7" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          </select>
+</div> </p>
+     <p>
+<div class="jonas">   
+  <label for="Baños">Baños:</label>
+  <select name="select"id="Baños" class="textfield1" tabindex="8" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          </select>
+</div> </p>
+      <p>
+<div class="jonas">  
+  <label for="Precio">Precio:</label>
+  <input type="text" id="Precio" class="textfield" placeholder=" Valor de la propiedad" tabindex="9" required > </div> </p> 
+      <p>
+<div class="jonas">   
+  <label for="Area del terreno(m2)">A.terreno(m2):</label>
+  <input type="text" id="Area del terreno" class="textfield" placeholder=" Area del terreno" tabindex="10" required > </div> </p>  
+
+       <p>
+<div class="jonas">   
+  <label for="Area de la construcción(m2)">A.construcción(m2):</label>
+  <input type="text" id="Area de la construcción" class="textfield" placeholder=" Area de la construcción" tabindex="11" required > </div> </p>  
+ <p>
+<div class="jonas">   
+  <label for="Estrato">Estrato:</label>
+  <select name="select"id="Estrato" class="textfield1" tabindex="12" required>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          </select>
+</div> </p>
+<p>
+<div class="jonas">   
+  <label for="Año de Construccion">Año de Construccion:</label>
+  <select name="select"id="Año de Construccion" class="textfield1" tabindex="13" required>
+          <option>1991</option>
+          <option>1992</option>
+          <option>1993</option>
+          <option>1994</option>
+          <option>1995</option>
+          </select>
+</div> </p>
+<p>
+<div class="jonas">   
+  <label for="Ubicacion">Ubicacion:</label>
+  <select name="select"id="Ubicacion" class="textfield1" tabindex="14" required>
+          <option>Norte</option>
+            <option>Sur</option>
+            <option>Occidente</option>
+            <option>Oeste</option>
+          </select>
+</div> </p>
+ <p>
+<div class="jonas">   
+  <label for="Direccion">Dirección:</label>
+  <input type="text" id="Direccion" class="textfield" placeholder=" Dirección del inmueble" tabindex="15" required > </div> </p> 
+<p>
+<div class="jonas">   
+  <label for="Estado de conservación">Estado de conservación:</label>
+  <select name="select"id="Estado de conservación" class="textfield1" tabindex="16" required>
+          <option>Bueno</option>
+          <option>Regular</option>
+          <option>Mala</option>
+          </select>
+</div> </p>
+ <p>
+<div class="jonas">   
+  <label for="Parqueaderos">Parqueaderos?:</label> </span> si
+          <input type="radio" name="radio1" id="Parqueaderos1" value="radio" tabindex="17" required> 
+          no
+          <input type="radio" name="radio2" id="Parqueaderos2" value="radio2" tabindex="18" required> </div> </p> 
+</fieldset>
+<p>
+  <input type="button" name="button2" id="button" value="Terminar Inscripción" tabindex="19" required>
+</p>
+</form>
+<script>
+$().ready(function() {
+$("#formu").validate({
+            rules:{
+				Anuncio:{
+					required: true, minlength: 3,
+					 lettersonly: true
+				}
+					       },
+
+			
+			 messages:{
+			Anuncio:{
+				required: "Haga las cosas bien",
+					minlength:" son tres digitos mami",
+					lettersonly: "solo letras"
+				}
+			
+			},
+			      
+});
+});
+</script>
+</div>
+
+<!-- InstanceEndEditable -->
+
+<div class="pie_de_pagina" style="background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iZ3JheSI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiPjwvcmVjdD4KPC9zdmc+); background-size: 20px 20px;">
+<marquee> SIINMOB (sistema de información inmobiliario) </marquee> </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+<style type="text/css">
+body{
+	margin-left:opx;
+		margin-right:0px;
+		margin-top:0px;
+		margin-bottom:0px;
+	background-color:#CCC;
+			font-family:antic;
+		font-size:22px;
+		font-weight:normal;
+	 }
+#form1{
+	margin-left:150px;
+	margin-right:150px;	
+}
+	 
+#button {
+   margin-top:2px;
+  display:inline;
+  top:2px;
+  margin:auto;
+}
+.select{
+    width: 300px; 
+	height: 30px;                 
+    color:#000;  		               /* color del texto */   
+    border: 1px solid gray;         /* color del borde puede ser solid ó dotted */   
+    background-color:#FFF;	
+}
+
+input:focus {
+  border: 1px solid gray;
+  background:#FFF;
+}
+textarea:focus {
+  border: 1px solid gray; 
+  background: #FFF;
+  font-family:antic;
+}
+.textfield {  
+    width: 200px; 
+	height: 20px;                 
+    color:#000;  		               /* color del texto */   
+    border: 1px solid gray;         /* color del borde puede ser solid ó dotted */   
+    background-color:#FFF;
+}  
+.textfield1 {  
+    width: 200px; 
+	height: 25px;                 
+    color:#000;  		               /* color del texto */   
+    border: 1px solid gray;         /* color del borde puede ser solid ó dotted */   
+    background-color:#FFF;
+}
+.jonas{
+  margin: .4em 0;
+}
+div label {
+  width: 35%;
+  float: left;
+}
+label::after {
+	content: "*";
+	color:#900;
+}
+input.valid{/* cuando esta bn como sale y de que color*/
+	border: 1px solid blue;
+	color: red;
+	background-color: #afa;
+	}
+input.error{/* cuando esta mal como sale y de que color*/
+	border: 1px solid red;
+	background-color: #FBB;
+	
+	}
+	 </style>

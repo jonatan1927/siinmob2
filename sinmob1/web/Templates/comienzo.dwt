@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>login</title>
+<!-- TemplateEndEditable -->
+<link href="../estilos/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../imagenes/favicon.ico" >
+   <link rel="icon" type="image/gif" href="../imagenes/animated_favicon1.gif" >
+<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.1/normalize.css">
+<link rel="stylesheet" href="http://i.icomoon.io/public/temp/fe3b6e9331/UntitledProject1/style.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="../js/additional-methods.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body style="background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iZ3JheSI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiPjwvcmVjdD4KPC9zdmc+); background-size: 20px 20px;">
+<!-- TemplateBeginEditable name="contenido" -->
+<div id= "principal" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0id2hpdGUiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIGZpbHRlcj0idXJsKCNuKSIgb3BhY2l0eT0iMC40Ij48L3JlY3Q+Cjwvc3ZnPg==);background-size: 20px 20px;" >
+
+<table width="900" height="61" border="0" cellspacing="1">
+  <tr>
+    <td width="532">
+  <p><img class="img" src="../imagenes/logo.jpg" width="206" height="180" align="left"></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p align="center"><a href="Cliente/cliente.html" class="enlaces" >Cliente </a> </p>
+  <p align="center"> <a href="Administrador/administrador.html" class="enlaces">Soy administrador </a>
+  <p align="center"> <a href="generar nueva clave.html" class="enlaces">Olvido su contraseña</a>
+  <p align="center"> <a href="registro usuario.html" class="enlaces">Registrarme como usuario</a>  
+  <p> </td>
+    <td width="490"><form id="login">
+    <h1 align="right"><img src="../imagenes/usuario.jpg" width="74" height="76" alt="usuario" /></h1>
+  <div align="right">
+  <input type="text" maxlength="20" placeholder="ingrese su usuario"/>
+  <input type="password" maxlength="20" placeholder="ingrese su contraseña"/>
+  <button type="button" class="btn">Registrarse</button>
+  <a href="../propietario/propietario.html" target="_self"><button type="submit" class="btn">Iniciar Sesión</button></a></td>
+  </tr>
+  </table>
+  
+<!-- TemplateEndEditable -->
+<div>
+<div class="pie_de_pagina1">
+<pre>Contactenos 
+Cl 65 BIS No 86-50 Oficina 9-501
+SIINMOB (sistema de información inmobiliario)</pre> </div>
+</body>
+</html>
+
+<style type="text/css">
+body{
+font-family:antic;
+font-size:22px;
+	 }
+</style>

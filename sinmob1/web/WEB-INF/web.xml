@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>registro</servlet-name>
+        <servlet-class>Controlador.registro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ingresar</servlet-name>
+        <servlet-class>Controlador.ingresar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>actualizar</servlet-name>
+        <servlet-class>Controlador.actualizar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Eusuario</servlet-name>
+        <servlet-class>Controlador.Eusuario</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Consultar</servlet-name>
+        <servlet-class>Controlador.Consultar</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>registroinmueble</servlet-name>
+        <servlet-class>Controlador.registroinmueble</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>citas</servlet-name>
+        <servlet-class>Controlador.citas</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>consultarinmueble</servlet-name>
+        <servlet-class>Controlador.consultarinmueble</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>filtroinmueble</servlet-name>
+        <servlet-class>Controlador.filtroinmueble</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registrocita</servlet-name>
+        <servlet-class>Controlador.Registrocita</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConsultarInmu</servlet-name>
+        <servlet-class>Controlador.ConsultarInmu</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registro</servlet-name>
+        <url-pattern>/registro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ingresar</servlet-name>
+        <url-pattern>/ingresar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>actualizar</servlet-name>
+        <url-pattern>/actualizar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Eusuario</servlet-name>
+        <url-pattern>/Eusuario</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Consultar</servlet-name>
+        <url-pattern>/Consultar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>registroinmueble</servlet-name>
+        <url-pattern>/registroinmueble</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>citas</servlet-name>
+        <url-pattern>/citas</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>consultarinmueble</servlet-name>
+        <url-pattern>/consultarinmueble</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>filtroinmueble</servlet-name>
+        <url-pattern>/filtroinmueble</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registrocita</servlet-name>
+        <url-pattern>/Registrocita</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConsultarInmu</servlet-name>
+        <url-pattern>/ConsultarInmu</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config> 
+        <error-page>
+       <error-code>400</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>401</error-code>
+       <location>/errores.jsp</location>
+</error-page> 
+        <error-page>
+       <error-code>402</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>403</error-code>
+       <location>/errores.jsp</location>
+</error-page> 
+        <error-page>
+       <error-code>404</error-code>
+       <location>/errores.jsp</location>
+</error-page> 
+        <error-page>
+       <error-code>405</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>406</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>407</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>408</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>409</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>410</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>411</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>412</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>413</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>414</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>415</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>416</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>417</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>418</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>422</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>423</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>424</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>425</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>426</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>429</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>449</error-code>
+       <location>/errores.jsp</location>
+</error-page>                    
+        <error-page>
+       <error-code>500</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>501</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>502</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>503</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>504</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>505</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>506</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>507</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>509</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+       <error-code>510</error-code>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+            <exception-type>RuntimeException</exception-type>
+       <location>/errores.jsp</location>
+</error-page>  
+        <error-page>
+            <exception-type>SQLException</exception-type>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+            <exception-type>IOException</exception-type>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+            <exception-type>NullPointerException</exception-type>
+       <location>/errores.jsp</location>
+</error-page>
+        <error-page>
+            <exception-type>RuntimeException</exception-type>
+       <location>/errores.jsp</location>
+</error-page>      
+            
+                                    
+</web-app>
+

@@ -1,0 +1,265 @@
+<!doctype html><html><!-- InstanceBegin template="/Templates/administrador.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Historial de contratos</title>
+<!-- InstanceEndEditable -->
+<link href="../estilos/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../imagenes/favicon.ico" >
+   <link rel="icon" type="image/gif" href="../imagenes/animated_favicon1.gif" >
+<link rel="stylesheet" href="http://necolas.github.io/normalize.css/3.0.1/normalize.css">
+<link rel="stylesheet" href="http://i.icomoon.io/public/temp/fe3b6e9331/UntitledProject1/style.css">
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="../js/additional-methods.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/jquery.validate.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+<body style="background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iZ3JheSI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsdGVyPSJ1cmwoI24pIiBvcGFjaXR5PSIwLjQiPjwvcmVjdD4KPC9zdmc+); background-size: 20px 20px;">
+
+<div id= "principal" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCI+CjxmaWx0ZXIgaWQ9Im4iIHg9IjAiIHk9IjAiPgo8ZmVUdXJidWxlbmNlIHR5cGU9ImZyYWN0YWxOb2lzZSIgYmFzZUZyZXF1ZW5jeT0iMC43IiBudW1PY3RhdmVzPSIxMCIgc3RpdGNoVGlsZXM9InN0aXRjaCI+PC9mZVR1cmJ1bGVuY2U+CjwvZmlsdGVyPgo8cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0id2hpdGUiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIGZpbHRlcj0idXJsKCNuKSIgb3BhY2l0eT0iMC40Ij48L3JlY3Q+Cjwvc3ZnPg==);background-size: 20px 20px;" >
+<div id= "emcabezado"> <img src="../imagenes/banner.jpg" width="100%" height="100%"/>
+</div>
+    <ul class="nav">
+    <li><a href="administrador.html">Inicio</a> </li>
+    <li><a href="quienes somos.html">¿Quiénes somos?</a> </li>
+    <li><a href="buscar inmueble.html">Buscar inmueble</a> </li>
+    <li><a href="buscar inmueble.html">visitas</a> </li>
+    <li><a href="#" class="MenuBarItemSubmenu">Contratos</a>
+        <ul>
+        <li><a href="solicitudes de contrato.html">Solicitudes</a></li>
+        <li><a href="historial de contratos.html">Historial</a></li>
+        </ul> </li>
+    <li><a href="usuarios_tabla.html">Usuarios</a><li>
+    
+    <li><a href="../Index.html">Cerrar sesión</a></li
+    ></ul>
+    
+<!-- InstanceBeginEditable name="contenido" -->
+<div id="columna1">
+<form id="ofertas" name="ofertas" method="post" >
+
+<h3>HISTORIAL DE CONTRATOS</h3>
+<p>
+<p>
+<div class="jonas">
+  <label for="Tipo"> Tipo de contrato:</label>
+  <input type="text" id="Tipo" name="Tipo" class="textfield" placeholder="  Arriendo"/></div> </p>
+<p>
+<div class="jonas">  
+  <label for="Propietario"> Propietario:</label>
+  <input type="text" id="Propietario" name="Propietario" class="textfield" placeholder="  Pablo Herrera"></div> </p>
+  <p>
+<div class="jonas"> 
+  <label for="Cedulapropietario">Cedula propietario:</label>
+  <input type="text" id="Cedulapropietario" name="Cedulapropietario" class="textfield"  placeholder="  223434566" ></div> </p>
+  <p>
+<div class="jonas">  
+  <label for="Cliente">Cliente:</label>
+  <input type="text" id="Cliente" name="Cliente"  class="textfield" placeholder="  Emilio Del Carmen"></div> </p>
+   <p>
+<div class="jonas">   
+  <label for="Cedulacliente">Cedula cliente:</label>
+  <input type="text" id="Cedulacliente" name="Cedulacliente" class="textfield" placeholder="  786945264"></div> </p>
+     <p>
+<div class="jonas"> 
+  <label for="Codeudor">Codeudor:</label>  
+  <input type="text" id="Codeudor" name="Codeudor" class="textfield" placeholder="  Pedro Potreros"> </div> </p>
+     <p>
+<div class="jonas">   
+  <label for="Cedulacodeudor">Cedula codeudor:</label>
+  <input type="text" id="Cedulacodeudor" name="Cedulacodeudor" class="textfield" placeholder="  4385632"> </div> </p>
+     <p>
+<div class="jonas">   
+  <label for="Direccióndelinmueble">Dirección del inmueble:</label>
+  <input type="text" id="Direccióndelinmueble" name="Direccióndelinmueble" class="textfield" placeholder=" cl 3ra No 23-40"></div> </p>
+      <p>
+<div class="jonas">  
+  <label for="Linderos">Linderos:</label>
+  <textarea name="Linderos" id="Linderos" class="textfield1" rows="8" placeholder="  Al Norte con el Parque el pinocho,
+  al sur con la iglesia el diviño niño, al oriente con la Avenida Caracas, Al occidente con la estacion de policia"></textarea> </div> </p>
+      <p>
+<div class="jonas">   
+  <label for="Fechadeinicio">Fecha de inicio:</label>
+  <input type="text" id="Fechadeinicio" name="Fechadeinicio" class="textfield" placeholder="  12/04/2014"> </div> </p>
+      <p>
+<div class="jonas">   
+  <label for="Fechadefinalización">Fecha de  finalización:</label>
+  <input type="text"  id="Fechadefinalización" name="Fechadefinalización" class="textfield" placeholder="  12/04/2014"> </div> </p>
+      <p>
+<div class="jonas">  
+  <label for="Valordetransacción">Valor de transacción:</label>
+  <input type="text" id="Valordetransacción" name="Valordetransacción" class="textfield" placeholder="  $500.000" </div> </p>
+       <p>
+<div class="jonas">  
+  <label for="Teléfono">Teléfono:</label> 
+  <input type="text"  id="Teléfono" name="Teléfono" class="textfield" placeholder="  3182394532"> </div> </p>
+        <p>
+<div class="jonas">   
+  <label for="Servicios">Servicios:</label> 
+  <textarea name="Servicios" id="Servicios"  rows="8" class="textfield1" placeholder=" Basicos mas internet, Gas 
+  y señal de claro"></textarea> </div> </p>
+</p>
+<p>
+  <input type="button" name="button2" id="button" class="btn" value="Guardar cambios">
+</p>
+</form>
+  <script>
+	// Función ready que ejecuta su contenido al cargar
+	$().ready(function() {
+		// Validación del formulario, tener en cuenta el ID
+		$("#ofertas").validate({ // Aplicación de la funcion validate. A continuación se especifican las reglas y los mensajes
+			// Aplicación de REGLAS de validación
+			rules: {
+				// Indique cada input según su atributo NAME
+				Tipo: {
+					// Indique las reglas a validar, entre estos corchetes, separadas por comas
+					// Si la regla es un parametro booleano, sólo indicar que es verdadero (true), si es numérico indicar el valor
+					required: true,
+					minlength: 6
+				},
+				// Siguiente input a validar, separado por coma
+				Propietario: {
+					required: true,
+					minlength: 5
+				},
+				
+				Cedulapropietario: {
+					required: true,
+					minlength: 5
+				},
+				Cliente: {
+					required: true,
+					minlength: 5
+				},
+				Cedulacliente: {
+					required: true,
+					email: true
+				},
+				Codeudor: {
+					required: true,
+					minlength: 5
+				},
+					Cedulacodeudor: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 8
+				},
+				Direccióndelinmueble: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 8
+				},
+				   Linderos: {
+					required: true,
+					digits: true, // Validación de un campo que admite solo digitos
+					minlength: 8
+				},
+				Fechadeinicio: {
+					required: true,
+					minlength: 20
+				},
+				Fechadefinalización: {
+					required: true,
+					minlength: 20,
+					maxlength:200	
+				},
+				Valordetransacción: {
+					required: true,
+					minlength: 20,
+					maxlength:200	
+				},
+				Teléfono: {
+					required: true,
+					minlength: 20,
+					maxlength:200	
+				},
+				Servicios: {
+					required: true,
+					minlength: 20,
+					maxlength:200	
+				}
+			}, // Cierre de las reglas, se separa con coma de los mensajes
+
+			// Mensajes a generar para indicar al usuario la estructura valida que debe ingresar. Se debe indicar por cada regla adicionada anteriormente para sobre escribir los mensajes por defecto (los cuales están en inglés. Se encuentran en "jquery.validate.js" línea 308)
+			messages: {
+				Tipo: {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Propietario:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Cedulapropietario:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Cliente: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Cedulacliente:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Codeudor:  {
+						required: "Campo requerido",
+					email: "digite correctamente su correo"
+				},
+				Cedulacodeudor: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Direccióndelinmueble:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Linderos: {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Fechadeinicio: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Fechadefinalización: {
+					required: "Campo requerido",
+					digits: "Sólo digitos",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Teléfono:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres"
+				},
+				Servicios:  {
+					required: "Campo requerido",
+					minlength: "Mínimo {0} caracteres",
+					maxlength:"Máximo {0} caracteres"
+				},
+			} // Cierre de los mensajesx|
+		}); // Cierre de la función validate
+	}); // Cierre de la función ready
+	
+	// NOTA: Revise el archivo "additional-methods" (ya enlazado arriba), para obtener otros métodos de validación como "lettersonly" básico para el trabajo de su sistema de información
+
+	</script>
+</div>
+<!-- InstanceEndEditable -->
+<div class="pie_de_pagina">
+<pre>Contactenos 
+Cl 65 BIS No 86-50 Oficina 9-501
+SIINMOB (sistema de información inmobiliario)</pre> </div>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+<style type="text/css">
+body{
+font-family:antic;
+font-size:18px;
+	 }
+	 </style>
